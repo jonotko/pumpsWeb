@@ -1,0 +1,140 @@
+body{
+    padding-top: 80px;
+    background-image: url('../bg-main2.jpg');
+    background-size: cover;
+}
+.navbar-default {
+    background-color:#000 ;
+}
+table{
+    background-color: white;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+    background-color: whitesmoke;
+}
+.navbar-default{
+    border-color: transparent;
+}
+
+#navigation {
+    /*Try to adopt to theScore navigation*/
+    z-index: 20;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 0px 6px 0px #555;
+    /*background-color: rgba(249, 140, 39, 0.7);*/
+    background-color: rgba(81, 81, 81, 0.7);
+    /*color: rgba(242, 139, 28, 0.7);*/
+}
+
+#andelnav{
+    padding-left: 0;
+}
+/*************NAVIGATION BAR STYLING**************/
+#logoArea img{
+    width: 90px;
+    height: auto;
+    padding-top: 5px;
+    
+}
+.social{
+    display: inline-block;
+    padding: 10px;
+}
+#social{
+    
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#mainMenu {
+    padding-top: 30px;
+    padding-right: 5px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    z-index: 5;
+}
+
+#mainMenu a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    padding: 0px 2px 0 0px;
+}
+
+#mainMenu a:hover {
+    color: #ff9000;
+}
+
+#mainMenu li {
+    display: inline;
+}
+
+
+.card{
+    width:100%;
+    background-color: #f5f5f5;
+    box-shadow: rgb(150,150,150) 3px 2px 10px;
+}
+
+.clubs{
+    position: relative;
+    display: block;
+    width:95%;
+    height: inherit;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.btn{
+    display: block;
+    width: 75%;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.container-fluid{
+    margin-top: 2%;
+}
+.start{
+    margin-top: 5%;
+}
+
+.row{
+    padding-top:10px;
+    padding-bottom: 5px;
+}
+#hacker{
+    text-align: center;
+}
+
+
+/*Media Queries*/
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width:1000px) { 
+    .card {
+        width:50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .clubs {width:100%;}
+    .popup { 
+        width:75%;
+        height:75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .st {
+    display:block;
+    width:70%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    }
+    #social{
+        width:50%;
+    }
+}

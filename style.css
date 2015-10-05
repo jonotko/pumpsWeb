@@ -1,0 +1,78 @@
+/*******STYLING FOR LIST TEMPLATE*****/
+#clubList {
+    height: auto;
+    margin-bottom: 4px;
+    width:500px;
+    /*clear: both;*/
+    
+}
+
+#clubList h1, p{
+    padding: 0px 0 0px 10px;
+    margin-bottom: 30px;
+    border-radius: 2px;
+}
+
+.clubHeader {
+    width: 100%;
+    background-color: rgba(81, 81, 81, 0.7);
+    height: 30px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    box-shadow: 0px 0px 6px 0px #555;
+}
+
+.clubContent {
+    padding-left: 20px;
+    background-color: rgba(255,255,255,0.8);
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    box-shadow: 0px 0px 6px 0px #555;
+}
+
+.clubContent h1 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.clearFloat {
+    clear: both;
+}
+
+#title {
+    padding-top: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title h1 {
+    color: #422D0D;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#amount {
+    color: #CCC;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+#details p{
+    color: #555;
+    padding: 0 10px;
+}
+
+#specials p{
+    padding: 0 10px;
+    color: #555;
+}
+
+#pricing p{
+    padding: 0 10px 10px 10px;
+    margin-bottom: 0px;
+    color: #555;
+}
+
+#date p{
+    padding: 0 10px 10px 10px;
+    color: #555;
+}
